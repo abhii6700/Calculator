@@ -8,6 +8,7 @@ function pushBtn(obj) {
     inputlabel.innerHTML = eval(inputlabel.innerHTML);
   } else if (pushed == "AC") {
     inputlabel.innerHTML = "0";
+    prevelement.innerHTML = "0";
   } else {
     if (inputlabel.innerHTML == "0") {
       inputlabel.innerHTML = pushed;
