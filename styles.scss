@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(
+    to right,
+    rgba(14, 14, 233, 0.616),
+    rgba(10, 182, 10, 0.719)
+  );
+}
+
+body {
+  .container {
+    background: rgba(48, 46, 46, 0.541);
+    width: 320px;
+    margin: 120px auto;
+    border-radius: 10px;
+  }
+  table {
+    width: 100%;
+    border-radius: 10px;
+  }
+  td {
+    width: 25%;
+    border-radius: 10px;
+  }
+
+  button {
+    width: 100%;
+    border-radius: 5px;
+    height: 70px;
+    font-size: 24px;
+    background: rgba(48, 46, 46, 0.589);
+    border: none;
+    color: rgba(255, 255, 255, 0.822);
+    margin-top: 2px;
+    &:hover {
+      background: rgba(255, 255, 255, 0.678);
+      cursor: pointer;
+      color: black;
+    }
+  }
+  #inputlabel {
+    height: 60px;
+    font-size: 40px;
+    text-align: right;
+    vertical-align: bottom;
+    padding-right: 16px;
+    color: white;
+  }
+  #prevelement {
+    height: 40px;
+    font-size: 20px;
+    text-align: right;
+    vertical-align: bottom;
+    padding-right: 16px;
+    color: rgba(199, 199, 199, 0.479);
+  }
+}
